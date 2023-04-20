@@ -1,0 +1,263 @@
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p,
+ul,
+ol {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#wrapper {
+    
+}
+
+
+/***** Top Bar *****/
+
+#topbar a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+#topbar a:hover,
+#about-me a:hover {
+    text-decoration: underline;
+}
+
+#topbar {
+    display: flex;
+    padding: 40px 0;
+    border-bottom: solid 1px #999;
+    width: 80%;
+    margin: 0 auto 40px;
+}
+
+#topbar #logo,
+#topbar #contact-me {
+    flex: .5;
+}
+
+#topbar #logo h2 {
+    margin: 0;
+    padding: 15px 0;
+}
+
+#topbar #nav {
+    flex: 1;
+    text-align: center;
+}
+
+#topbar #nav ul {
+    display: flex;
+    list-style: none;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+#topbar #nav li {
+    flex: 1;
+}
+
+#topbar #contact-me {
+    text-align: right;
+}
+
+#topbar #contact-me a {
+    display: inline-block;
+    background-color: indianred;
+    padding: 15px 20px;
+    color: #fff;
+    box-shadow: black;
+    box-shadow: 3px 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+#topbar #contact-me a:hover {
+    box-shadow: none;
+}
+
+/**********/
+
+/***** Billboard *****/
+
+#billboard {
+    height: 450px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/hero.jpeg);
+    background-repeat: no-repeat;
+}
+
+#billboard-text {
+    width: 40%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/*********/
+
+/***** About Me *****/
+
+#about-me {
+    border-top: solid 1px #999;
+    border-bottom: solid 1px #999;
+    padding: 40px 0;
+    display: flex;
+    width: 80%;
+    margin: 40px auto 0;
+}
+
+#about-me a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#about-me h2 {
+    margin-top: 0;
+}
+
+#about-me img {
+    border-radius: 50%;
+}
+
+#about-me .about-text {
+    flex: 1;
+}
+
+/**********/
+
+/***** Portfolio *****/
+
+#portfolio {
+    padding: 40px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#portfolio h2 {
+    text-align: center;
+}
+
+.port-row {
+    display: flex;
+    padding: 40px 0;
+}
+
+.port-item {
+    flex: 1;
+    text-align: center;
+}
+
+.port-item p {
+    padding: 0 20px;
+}
+
+.port-item img {
+    border: solid 3px indianred;
+    border-radius: 15px;
+}
+
+.port-item img:hover {
+    border-color: blueviolet;
+}
+
+/**********/
+
+/*****  Quote *****/
+
+#quote {
+    background-color: #CD5C5C;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+#quote p {
+    color: #fff;
+    padding: 20px;
+    font-family: 'Poppins';
+    font-size: 34px;
+    font-style: italic;
+    width: 50%;
+    text-align: center;
+}
+
+#quote span {
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/**********/
+
+/***** CTA *****/
+
+#cta {
+    width: 50%;
+    margin: 80px auto;
+    /*border: solid 3px #CD5C5C;*/
+    background-color: #FDDFDF;
+    border-radius: 15px;
+    padding: 60px;
+    display: flex;
+}
+
+.cta-text {
+    flex: 1;
+}
+
+.cta-text h2 {
+    margin-top: 0;
+}
+
+.cta-text p {
+    margin-bottom: 0;
+}
+
+.cta-button {
+    flex: .5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-button a {
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    background-color: indianred;
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    flex: .5;
+}
+
+#footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+}
